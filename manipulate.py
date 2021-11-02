@@ -4,7 +4,7 @@
 
 import pandas as pd
 import extras
-from pycowview.extras import positions
+from .extras import positions
 
 # functions to get all ids for cows in the data
 def unique_cows(df):

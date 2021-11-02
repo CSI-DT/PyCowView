@@ -6,8 +6,8 @@ import math
 import numpy as np
 import pandas as pd
 
-from pycowview.extras import positions, positions_PA
-from pycowview.manipulate import unique_cows
+from .extras import positions, positions_PA
+from .manipulate import unique_cows
 
 # function to get matrix of average distances between cows
 def get_distance(df, tag_id):

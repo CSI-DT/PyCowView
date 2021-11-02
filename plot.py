@@ -13,7 +13,7 @@ from matplotlib.animation import FuncAnimation
 from matplotlib import transforms
 from datetime import datetime
 
-from pycowview.extras import positions, positions_PA
+from .extras import positions, positions_PA
 
 # function to plot the outline of the barn
 def plot_barn(filename):
