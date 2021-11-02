@@ -11,5 +11,6 @@ Then you can use the `pycowview` code as follows:
 ```
 from pycowview.plot import plot_barn
 
-plot_barn('data/barn.csv')
+fig, ax = plot_barn('data/barn.csv')
+fig.savefig("plot.png")
 ```
