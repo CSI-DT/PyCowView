@@ -5,7 +5,7 @@ This repository contains core functions that could be used for specific analyses
 
 ## Getting started
 In order to access the `pycowview` code, please add a new submodule to your repository using the the following command:
-`git submodule add https://github.com/CSI-DT/PyCowView`
+`git submodule add https://github.com/CSI-DT/pycowview`
 
 Then you can use the `pycowview` code as follows:
 ```
